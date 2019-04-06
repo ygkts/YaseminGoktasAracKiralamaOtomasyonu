@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C466013-73EE-4882-A09B-BBCE7406957A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Proje_RentACar</RootNamespace>
+    <AssemblyName>Proje_RentACar</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Araclar.cs">
+      <DependentUpon>RentACarDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdminAyarlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdminAyarlari.Designer.cs">
+      <DependentUpon>FormAdminAyarlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAnaSayfa.Designer.cs">
+      <DependentUpon>FormAnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAracIslem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAracIslem.Designer.cs">
+      <DependentUpon>FormAracIslem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAracKirala.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAracKirala.Designer.cs">
+      <DependentUpon>FormAracKirala.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHakkinda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHakkinda.Designer.cs">
+      <DependentUpon>FormHakkinda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMusteriIslem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMusteriIslem.Designer.cs">
+      <DependentUpon>FormMusteriIslem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRaporlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRaporlar.Designer.cs">
+      <DependentUpon>FormRaporlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KiradakiAraclar.cs">
+      <DependentUpon>RentACarDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanicilar.cs">
+      <DependentUpon>RentACarDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MusaitAraclar.cs">
+      <DependentUpon>RentACarDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Musteri.cs">
+      <DependentUpon>RentACarDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Raporlar.cs">
+      <DependentUpon>RentACarDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RentACarDBModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RentACarDBModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RentACarDBModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RentACarDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RentACarDBModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RentACarDBModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>RentACarDBModel.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdminAyarlari.resx">
+      <DependentUpon>FormAdminAyarlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAnaSayfa.resx">
+      <DependentUpon>FormAnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAracIslem.resx">
+      <DependentUpon>FormAracIslem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAracKirala.resx">
+      <DependentUpon>FormAracKirala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHakkinda.resx">
+      <DependentUpon>FormHakkinda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMusteriIslem.resx">
+      <DependentUpon>FormMusteriIslem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRaporlar.resx">
+      <DependentUpon>FormRaporlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="RentACarDBModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>RentACarDBModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="RentACarDBModel.edmx.diagram">
+      <DependentUpon>RentACarDBModel.edmx</DependentUpon>
+    </None>
+    <None Include="Resources\header-bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\support.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rent-a-car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comprar-alugar-um-carro-esportivo-novo-ou-usado-rapido_3446-651.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time-is-money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accounting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15843349-settings-icon-glossy-orange-button.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_fid1_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_facebook_287801.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_github_2308116.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_social_media_applications_14-linkedin_4102586.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resimyokKisi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Flatastic-9-Save.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_refresh_reload_update_2_2571204.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_free-27_616650.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resimyok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Martz90-Circle-Addon1-Text-plus.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iconsmind-Outline-QR-Code.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dakirby309-Simply-Styled-Microsoft-Excel-2013.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Awicons-Vista-Artistic-2-Hot-Printer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_system-search_118797.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\07f589e6b8c300ba224510c4ed53a9ab1840b567.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RentACarDBModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>RentACarDBModel.edmx</DependentUpon>
+      <LastGenOutput>RentACarDBModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="RentACarDBModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>RentACarDBModel.edmx</DependentUpon>
+      <LastGenOutput>RentACarDBModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

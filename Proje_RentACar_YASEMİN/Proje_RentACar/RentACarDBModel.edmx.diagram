@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e83deb6589ab4f2793e8da588b3efd79" Name="Diagram1">
+        <EntityTypeShape EntityType="RentACarDBModel.Araclar" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentACarDBModel.KiradakiAraclar" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentACarDBModel.Kullanicilar" Width="1.5" PointX="2.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentACarDBModel.MusaitAraclar" Width="1.5" PointX="3" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentACarDBModel.Musteri" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentACarDBModel.Raporlar" Width="1.5" PointX="6" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentACarDBModel.sysdiagrams" Width="1.5" PointX="4.75" PointY="2.625" IsExpanded="true" />
+        <AssociationConnector Association="RentACarDBModel.FK_KiradakiAraclar_Araclar" ManuallyRouted="false" />
+        <AssociationConnector Association="RentACarDBModel.FK_MusaitAraclar_Araclar" ManuallyRouted="false" />
+        <AssociationConnector Association="RentACarDBModel.FK_Raporlar_Araclar1" ManuallyRouted="false" />
+        <AssociationConnector Association="RentACarDBModel.FK_KiradakiAraclar_Musteri" ManuallyRouted="false" />
+        <AssociationConnector Association="RentACarDBModel.FK_Raporlar_Musteri1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

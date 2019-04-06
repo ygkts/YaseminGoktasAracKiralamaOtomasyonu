@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RentACarDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Araclar">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Plaka" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Marka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Model" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Yıl" Type="Int32" />
+    <Property Name="Yakit" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Vites" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SonKilometre" Type="Int32" />
+    <Property Name="MotorCesidi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Resim" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Cekis" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Kapi" Type="Int32" />
+    <Property Name="KasaTipi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Renk" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Hasar" Type="Int32" />
+    <NavigationProperty Name="KiradakiAraclar" Relationship="Self.FK_KiradakiAraclar_Araclar" FromRole="Araclar" ToRole="KiradakiAraclar" />
+    <NavigationProperty Name="MusaitAraclar" Relationship="Self.FK_MusaitAraclar_Araclar" FromRole="Araclar" ToRole="MusaitAraclar" />
+    <NavigationProperty Name="Raporlar" Relationship="Self.FK_Raporlar_Araclar1" FromRole="Araclar" ToRole="Raporlar" />
+  </EntityType>
+  <EntityType Name="KiradakiAraclar">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AracID" Type="Int32" />
+    <Property Name="AracPlaka" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="AracMarka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AracModel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AracYil" Type="Int32" />
+    <Property Name="MusteriID" Type="Int32" />
+    <Property Name="MusteriAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MusteriSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AlisTarih" Type="DateTime" Precision="0" />
+    <Property Name="VerisTarih" Type="DateTime" Precision="0" />
+    <Property Name="TcNo" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="ToplamTutar" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="Araclar" Relationship="Self.FK_KiradakiAraclar_Araclar" FromRole="KiradakiAraclar" ToRole="Araclar" />
+    <NavigationProperty Name="Musteri" Relationship="Self.FK_KiradakiAraclar_Musteri" FromRole="KiradakiAraclar" ToRole="Musteri" />
+  </EntityType>
+  <EntityType Name="Kullanicilar">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EPosta" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sifre" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Resim" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="YetkiDuzeyi" Type="Int32" />
+  </EntityType>
+  <EntityType Name="MusaitAraclar">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AracID" Type="Int32" />
+    <Property Name="AracPlaka" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Marka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Model" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Yil" Type="Int32" />
+    <NavigationProperty Name="Araclar" Relationship="Self.FK_MusaitAraclar_Araclar" FromRole="MusaitAraclar" ToRole="Araclar" />
+  </EntityType>
+  <EntityType Name="Musteri">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TCNo" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="Ad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DTarih" Type="DateTime" Precision="0" />
+    <Property Name="Meslek" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CepNo" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="EvIsTelNo" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="EPosta" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Adres" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="EhliyetNo" Type="Int32" />
+    <Property Name="EhliyetTur" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Notlar" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="KiradakiAraclar" Relationship="Self.FK_KiradakiAraclar_Musteri" FromRole="Musteri" ToRole="KiradakiAraclar" />
+    <NavigationProperty Name="Raporlar" Relationship="Self.FK_Raporlar_Musteri1" FromRole="Musteri" ToRole="Raporlar" />
+  </EntityType>
+  <EntityType Name="Raporlar">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ArızaliAracID" Type="Int32" />
+    <Property Name="Plaka" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="MusteriID" Type="Int32" />
+    <Property Name="Ariza" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Tarih" Type="DateTime" Precision="0" />
+    <Property Name="Masraf" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="MusteriAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MusteriSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Araclar" Relationship="Self.FK_Raporlar_Araclar1" FromRole="Raporlar" ToRole="Araclar" />
+    <NavigationProperty Name="Musteri" Relationship="Self.FK_Raporlar_Musteri1" FromRole="Raporlar" ToRole="Musteri" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_KiradakiAraclar_Araclar">
+    <End Role="Araclar" Type="Self.Araclar" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="KiradakiAraclar" Type="Self.KiradakiAraclar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Araclar">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KiradakiAraclar">
+        <PropertyRef Name="AracID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MusaitAraclar_Araclar">
+    <End Role="Araclar" Type="Self.Araclar" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MusaitAraclar" Type="Self.MusaitAraclar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Araclar">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MusaitAraclar">
+        <PropertyRef Name="AracID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Raporlar_Araclar1">
+    <End Role="Araclar" Type="Self.Araclar" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Raporlar" Type="Self.Raporlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Araclar">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Raporlar">
+        <PropertyRef Name="ArızaliAracID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KiradakiAraclar_Musteri">
+    <End Role="Musteri" Type="Self.Musteri" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="KiradakiAraclar" Type="Self.KiradakiAraclar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Musteri">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KiradakiAraclar">
+        <PropertyRef Name="MusteriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Raporlar_Musteri1">
+    <End Role="Musteri" Type="Self.Musteri" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Raporlar" Type="Self.Raporlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Musteri">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Raporlar">
+        <PropertyRef Name="MusteriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RentACarDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Araclar" EntityType="Self.Araclar" />
+    <EntitySet Name="KiradakiAraclar" EntityType="Self.KiradakiAraclar" />
+    <EntitySet Name="Kullanicilar" EntityType="Self.Kullanicilar" />
+    <EntitySet Name="MusaitAraclar" EntityType="Self.MusaitAraclar" />
+    <EntitySet Name="Musteri" EntityType="Self.Musteri" />
+    <EntitySet Name="Raporlar" EntityType="Self.Raporlar" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK_KiradakiAraclar_Araclar" Association="Self.FK_KiradakiAraclar_Araclar">
+      <End Role="Araclar" EntitySet="Araclar" />
+      <End Role="KiradakiAraclar" EntitySet="KiradakiAraclar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MusaitAraclar_Araclar" Association="Self.FK_MusaitAraclar_Araclar">
+      <End Role="Araclar" EntitySet="Araclar" />
+      <End Role="MusaitAraclar" EntitySet="MusaitAraclar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Raporlar_Araclar1" Association="Self.FK_Raporlar_Araclar1">
+      <End Role="Araclar" EntitySet="Araclar" />
+      <End Role="Raporlar" EntitySet="Raporlar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KiradakiAraclar_Musteri" Association="Self.FK_KiradakiAraclar_Musteri">
+      <End Role="Musteri" EntitySet="Musteri" />
+      <End Role="KiradakiAraclar" EntitySet="KiradakiAraclar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Raporlar_Musteri1" Association="Self.FK_Raporlar_Musteri1">
+      <End Role="Musteri" EntitySet="Musteri" />
+      <End Role="Raporlar" EntitySet="Raporlar" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

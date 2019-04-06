@@ -1,0 +1,79 @@
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar\bin\Debug\Proje_RentACar.exe.config
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar\bin\Debug\Proje_RentACar.exe
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar\bin\Debug\Proje_RentACar.pdb
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar\obj\Debug\Proje_RentACar.csprojResolveAssemblyReference.cache
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar\obj\Debug\Proje_RentACar.Form1.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar\obj\Debug\Proje_RentACar.FormAdminAyarlari.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar\obj\Debug\Proje_RentACar.FormAracIslem.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar\obj\Debug\Proje_RentACar.FormAracKirala.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar\obj\Debug\Proje_RentACar.FormHakkinda.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar\obj\Debug\Proje_RentACar.FormKullaniciAyarlari.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar\obj\Debug\Proje_RentACar.FormMusteriIslem.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar\obj\Debug\Proje_RentACar.FormRandevuAl.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar\obj\Debug\Proje_RentACar.FormRaporlar.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar\obj\Debug\Proje_RentACar.Properties.Resources.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar\obj\Debug\Proje_RentACar.csproj.GenerateResource.Cache
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar\obj\Debug\Proje_RentACar.exe
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar\obj\Debug\Proje_RentACar.pdb
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\bin\Debug\Proje_RentACar.exe.config
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\obj\Debug\Proje_RentACar.exe
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\obj\Debug\Proje_RentACar.pdb
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\bin\Debug\Proje_RentACar.exe
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\bin\Debug\Proje_RentACar.pdb
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\bin\Debug\EntityFramework.dll
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\bin\Debug\EntityFramework.xml
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\obj\Debug\Proje_RentACar.csprojResolveAssemblyReference.cache
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\obj\Debug\Proje_RentACar.Form1.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\obj\Debug\Proje_RentACar.FormAdminAyarlari.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\obj\Debug\Proje_RentACar.FormAnaSayfa.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\obj\Debug\Proje_RentACar.FormAracIslem.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\obj\Debug\Proje_RentACar.FormAracKirala.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\obj\Debug\Proje_RentACar.FormHakkinda.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\obj\Debug\Proje_RentACar.FormKullaniciAyarlari.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\obj\Debug\Proje_RentACar.FormMusteriIslem.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\obj\Debug\Proje_RentACar.FormRandevuAl.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\obj\Debug\Proje_RentACar.FormRaporlar.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\obj\Debug\Proje_RentACar.Properties.Resources.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - SadeceTasarım\obj\Debug\Proje_RentACar.csproj.GenerateResource.Cache
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\bin\Debug\Proje_RentACar.exe.config
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\obj\Debug\Proje_RentACar.exe
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\obj\Debug\Proje_RentACar.pdb
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\bin\Debug\Proje_RentACar.exe
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\bin\Debug\Proje_RentACar.pdb
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\bin\Debug\EntityFramework.dll
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\bin\Debug\EntityFramework.xml
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\obj\Debug\Proje_RentACar.csprojResolveAssemblyReference.cache
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\obj\Debug\Proje_RentACar.Form1.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\obj\Debug\Proje_RentACar.FormAdminAyarlari.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\obj\Debug\Proje_RentACar.FormAnaSayfa.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\obj\Debug\Proje_RentACar.FormAracIslem.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\obj\Debug\Proje_RentACar.FormAracKirala.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\obj\Debug\Proje_RentACar.FormHakkinda.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\obj\Debug\Proje_RentACar.FormMusteriIslem.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\obj\Debug\Proje_RentACar.FormRaporlar.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\obj\Debug\Proje_RentACar.Properties.Resources.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\Proje_RentACar - Güncel\obj\Debug\Proje_RentACar.csproj.GenerateResource.Cache
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\bin\Debug\Proje_RentACar.exe.config
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\bin\Debug\Proje_RentACar.exe
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\bin\Debug\Proje_RentACar.pdb
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\bin\Debug\EntityFramework.dll
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\bin\Debug\EntityFramework.xml
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\obj\Debug\Proje_RentACar.csprojResolveAssemblyReference.cache
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\obj\Debug\Proje_RentACar.Form1.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\obj\Debug\Proje_RentACar.FormAdminAyarlari.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\obj\Debug\Proje_RentACar.FormAnaSayfa.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\obj\Debug\Proje_RentACar.FormAracIslem.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\obj\Debug\Proje_RentACar.FormAracKirala.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\obj\Debug\Proje_RentACar.FormHakkinda.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\obj\Debug\Proje_RentACar.FormMusteriIslem.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\obj\Debug\Proje_RentACar.FormRaporlar.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\obj\Debug\Proje_RentACar.Properties.Resources.resources
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\obj\Debug\Proje_RentACar.csproj.GenerateResource.Cache
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\obj\Debug\Proje_RentACar.exe
+C:\Users\ygkts\Desktop\YGKTS\KURS_PROJELER\OTHERS\AraçKiralama-YaseminGöktaş\Proje_RentACar\obj\Debug\Proje_RentACar.pdb
